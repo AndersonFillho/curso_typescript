@@ -11,8 +11,8 @@ const Context = () => {
         {details && (
             <div>
             <h2>Linguagem: {details.language}</h2>
-            <h4>FW: {details.framework}</h4>
-            <p>Qtd: {details.projects}</p>
+            <h4>Framework: {details.framework}</h4>
+            <p>Quantidade de projetos: {details.projects}</p>
             </div>
         )}
         </>
